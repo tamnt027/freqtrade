@@ -134,6 +134,7 @@ class Telegram(RPCHandler):
             CommandHandler('start', self._start),
             CommandHandler('stop', self._stop),
             CommandHandler('forcesell', self._forcesell),
+            CommandHandler('fs', self._forcesell),
             CommandHandler('forcebuy', self._forcebuy),
             CommandHandler('trades', self._trades),
             CommandHandler('delete', self._delete_trade),
